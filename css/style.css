@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;line-height: 23px;color: #3c3c3c;
+}
+
+.navbar{color:#c6c6c7!important;}
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
